@@ -9,14 +9,12 @@ while (i < arrayLength){
   i++;
 }
 
-// Write a for loop that prints out the contents of ingredients:
 for(i = 0;  i < arrayLength; i++){
   console.log(ingredients[i]);
 }
 
 // Write any loop (while or for) that prints out the contents of ingredients backwards:
 let reverseIngredients = ingredients.reverse();
-
 for(i = 0;  i < arrayLength; i++){
-  console.log(reverseIngredients[i]);
+  console.log(ingredients[i]);
 }
