@@ -6,9 +6,9 @@
     3. Set `elm` to the variable that you found
     4. Alert the inner text of the element with `alert` function, it should alert the text "JavaScript on The DOM"
 */
-let em = null;
-em = document.getElementById('info').innerHTML;
-alert(em);
+let elm = null;
+elm = document.getElementById('info').innerHTML;
+alert(elm);
 
 /* Notes
 
